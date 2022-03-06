@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: rgb(107, 10, 110);
+  background-color: rgb(182, 178, 178);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -26,8 +26,9 @@ body {
 .box {
   padding: 10px;
   margin: 0 10px 0 10px;
+  font-weight: bold;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-  background-color: rgb(223, 66, 199);
+  background-color: rgba(183, 196, 253, 0.952);
   border-radius: 0.5em;
   width: 30vw;
   height: auto;
@@ -35,12 +36,20 @@ body {
 
 .btn {
   border: 0;
-  color: rgba(218, 198, 217, 0.897);
+  color: rgba(255, 255, 255, 0.897);
   font-weight: bold;
-  background-color: rgba(75, 11, 66, 0.897);
+  background-color: rgb(114, 85, 243);
   padding: 10px;
   margin-top: 10px;
   border-radius: 0.5em;
+}
+
+.btn:hover {
+
+  background: darkblue;
+  transition: 1s background;
+  transform: scale(1.2);
+  cursor: pointer;
 }
 
 .text-input {
